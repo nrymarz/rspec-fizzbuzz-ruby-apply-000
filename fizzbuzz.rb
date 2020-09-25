@@ -9,4 +9,5 @@ def fizzbuzz(int)
     s=s.to_s + "Buzz"
   else
     nil
+  end
 end
