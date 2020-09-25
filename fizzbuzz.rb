@@ -6,5 +6,6 @@ def fizzbuzz(int)
     s="Fizz"
   else int % 5 == 0
     s=s+"Buzz"
+  end
   s
 end
