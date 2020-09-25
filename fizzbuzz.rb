@@ -3,8 +3,9 @@
 def fizzbuzz(int)
   if int % 3 == 0 
     s="Fizz"
-  else int % 5 == 0
+  elsif int % 5 == 0
     s=s+"Buzz"
+  else
+    s=nil 
   end
-  s
 end
