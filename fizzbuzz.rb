@@ -7,7 +7,6 @@ def fizzbuzz(int)
   end
   if int % 5 == 0
     s=s.to_s + "Buzz"
-  else
-    s = nil
   end
+  s
 end
